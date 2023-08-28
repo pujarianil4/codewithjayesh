@@ -1,0 +1,33 @@
+.todo{
+width: 100%;
+}
+
+.todo > .title{
+    width: 100%;
+    text-align: center;
+}
+
+.input_container{
+    width: max-content;
+    margin: auto;
+}
+.list{
+    width: 300px;
+    margin: 20px auto;
+    
+}
+.list > div> p{
+ font-weight: 800;
+ font-size: 15px;
+}
+
+.list > div {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    gap: 10px;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
